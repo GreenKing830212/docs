@@ -2,7 +2,7 @@
 title: Viewing your GitHub Advanced Security usage
 intro: 'You can view usage of {% data variables.product.prodname_GH_advanced_security %} for your enterprise.'
 permissions: 'Enterprise owners can view usage for {% data variables.product.prodname_GH_advanced_security %}.'
-product: '{% data reusables.gated-features.ghas %}'
+product: '{% data reusables.gated-features.ghas-ghec %}'
 redirect_from:
   - /billing/managing-licensing-for-github-advanced-security/viewing-your-github-advanced-security-usage
   - /admin/advanced-security/viewing-your-github-advanced-security-usage
@@ -66,7 +66,7 @@ You can view the enterprise account's current license limits and usage.
 
 {% endif %}
 {%- ifversion ghec -%}
-1. Optionally, to see a detailed breakdown of usage per organization{% ifversion secret-scanning-user-owned-repos %} and user namespace when using {% data variables.product.prodname_emus %}{% endif %}, in the enterprise account sidebar, click **Billing**.
+1. Optionally, to see a detailed breakdown of usage per organization{% ifversion secret-scanning-user-owned-repos %} and user namespace when using {% data variables.product.prodname_emus %}{% endif %}, click {% octicon "credit-card" aria-hidden="true" %} **Billing & Licensing**.
 
    In the “{% data variables.product.prodname_GH_advanced_security %}” section, you can see a summary of your current license usage, as well as the number of committers and unique committers for each organization{% ifversion secret-scanning-user-owned-repos %} and user namespace when using {% data variables.product.prodname_emus %}{% endif %}. The organizations{% ifversion secret-scanning-user-owned-repos %} and user namespaces{% endif %} in the billing table are sorted by the highest number of unique committers in descending order.
 {% endif %}
@@ -74,7 +74,7 @@ You can view the enterprise account's current license limits and usage.
    * Click the name of the organization.
 
 {% ifversion ghec %}
-   * On the "Code security & analysis" settings page, scroll to the "{% data variables.product.prodname_GH_advanced_security %} repositories" section to see an overview of your organization's license usage, as well as a detailed breakdown of usage by repository for this organization.
+   * On the "{% data variables.product.UI_advanced_security_ent %}" settings page, scroll to the "{% data variables.product.prodname_GH_advanced_security %} repositories" section to see an overview of your organization's license usage, as well as a detailed breakdown of usage by repository for this organization.
 
       For more information, see [AUTOTITLE](/organizations/keeping-your-organization-secure/managing-security-settings-for-your-organization/managing-security-and-analysis-settings-for-your-organization).
 
@@ -111,7 +111,7 @@ You can download the {% data variables.product.prodname_advanced_security %} lic
 
 {% data reusables.profile.access_org %}
 {% data reusables.profile.org_settings %}
-1. In the "Security" section of the sidebar, select the **Code security** dropdown menu, then click **{% data variables.product.prodname_global_settings_caps %}**.
+1. In the "Security" section of the sidebar, select the {% data variables.product.UI_advanced_security %} dropdown menu, then click **{% data variables.product.prodname_global_settings_caps %}**.
 1. In the "{% data variables.product.prodname_GH_advanced_security %} repositories" section, next to the repository you want usage information for, select {% octicon "kebab-horizontal" aria-label="GHAS repository actions" %}, then click **Download CSV report**.
 
    ![Screenshot of the committers by repository table. The horizontal kebab icon and "Download CSV report" button are highlighted with an orange outline.](/assets/images/help/billing/ghas-billing-table-repository-csv.png)

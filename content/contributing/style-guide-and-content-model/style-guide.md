@@ -1374,7 +1374,7 @@ For tables that use symbols:
 
 * Populate all cells. For example in a permissions table, do not mark only the cells for things that require a permission.
 * Use octicons or SVG. Do not use emoji. For more information about octicons, see [AUTOTITLE](/contributing/syntax-and-versioning-for-github-docs/using-markdown-and-liquid-in-github-docs#octicons).
-* Use a [check mark](https://primer.style/octicons/check-16) for affirmative values ("Yes", "Required", "Supported") and a [cross](https://primer.style/octicons/x-16) for negative values ("No", "Optional", "Unsupported").
+* Use a [check mark](https://primer.style/octicons/icon/check-16) for affirmative values ("Yes", "Required", "Supported") and a [cross](https://primer.style/octicons/icon/x-16) for negative values ("No", "Optional", "Unsupported").
 * Use `aria-label` to describe the meaning of the symbol, not its visual characteristics. For example, "Required", not "Check mark icon".
 
 Where table data is not truly binary (every value is either "Yes" or "No", for example), text values may be needed in addition to, or instead of, symbols. For example on the page [AUTOTITLE](/support/learning-about-github-support/about-github-support), some features are marked as "Available to purchase".
@@ -1642,7 +1642,7 @@ The following documentation should reference "user accounts."
 
 * The [AUTOTITLE](/enterprise-cloud@latest/admin) product
 * Enterprise-specific billing documentation, like [AUTOTITLE](/enterprise-cloud@latest/billing/managing-your-github-billing-settings/about-billing-for-your-enterprise)
-* Content within other products that's intended for an administrative audience, like [AUTOTITLE](/enterprise-cloud@latest/code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts) in the "Code security" product or [AUTOTITLE](/enterprise-cloud@latest/admin/overview/setting-up-a-trial-of-github-enterprise-cloud) in the "Get started" product
+* Content within other products that's intended for an administrative audience, like [AUTOTITLE](/enterprise-cloud@latest/code-security/supply-chain-security/end-to-end-supply-chain/securing-accounts) in the "Secure coding" product or [AUTOTITLE](/enterprise-cloud@latest/admin/overview/setting-up-a-trial-of-github-enterprise-cloud) in the "Get started" product
 * Enterprise-specific API content, like the [AUTOTITLE](/enterprise-cloud@latest/rest/reference/enterprise-admin) REST API reference documentation
 
 For enterprises on {% data variables.product.prodname_ghe_cloud %} that don't use {% data variables.product.prodname_emus %}, use "personal account" when describing members of organizations owned by the enterprise.

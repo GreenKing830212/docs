@@ -230,23 +230,21 @@ Before you can use the {% data variables.product.prodname_copilot %} extension f
 
 {% eclipse %}
 
-{% data reusables.copilot.eclipse-public-preview-note %}
-
 ## About {% data variables.product.prodname_copilot %} in Eclipse
 
-Installing {% data variables.product.prodname_copilot %} in Eclipse allows you to receive coding suggestions from {% data variables.product.prodname_copilot_short %} as you type.
+Installing {% data variables.product.prodname_copilot %} in Eclipse allows you to receive coding suggestions from {% data variables.product.prodname_copilot_short %} as you type. You also automatically get access to {% data variables.product.prodname_copilot_chat %}, which allows you to chat with {% data variables.product.prodname_copilot_short %}.
+
+{% data reusables.copilot.eclipse-public-preview-note %}
 
 To see instructions for other popular coding environments, use the tool switcher at the top of the page.
 
 ## Prerequisites
 
-* **Access to {% data variables.product.prodname_copilot_short %}**. To use {% data variables.product.prodname_copilot %} in Eclipse, you must have an active {% data variables.product.prodname_copilot %} subscription. {% data reusables.copilot.subscription-prerequisite %}
-
-* **Compatible version of Eclipse**. To use {% data variables.product.prodname_copilot %} in Eclipse, you must have Eclipse version 2024-09 or above. For more information on the latest versions, see the [Eclipse download page](https://www.eclipse.org/downloads/packages/).
+{% data reusables.copilot.eclipse-prerequisites %}
 
 ## Installing {% data variables.product.prodname_copilot %} in Eclipse
 
-1. Download and install the latest version of {% data variables.product.prodname_copilot %} in the [Eclipse Marketplace](https://aka.ms/copiloteclipse).
+1. Download and install the latest version of {% data variables.product.prodname_copilot %} from the [Eclipse Marketplace](https://aka.ms/copiloteclipse) or directly via the [Eclipse Update Site](https://azuredownloads-g3ahgwb5b8bkbxhd.b01.azurefd.net/github-copilot/). For more information, see [Installing New Software](https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.user/tasks/tasks-124.htm) in the Eclipse documentation.
 
 1. After the extension is installed, restart Eclipse to apply the changes.
 
